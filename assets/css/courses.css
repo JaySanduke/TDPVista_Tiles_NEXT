@@ -1,0 +1,115 @@
+#root{
+  overflow-y: hidden;
+}
+.ribbon {
+  width: 36px;
+  height: 120px;
+	color:white;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: center;
+  font-size: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background-color : #172b4d;
+  position: absolute;
+  right: 1rem;
+  top: -2px;
+  font-size: 10px;
+  -webkit-animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+          animation: drop forwards 0.8s 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ribbon:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top:120px;
+
+  border-left: 18px solid #172b4d;
+  border-right: 18px solid #172b4d;
+  border-bottom: 20px solid transparent;
+}
+
+.ribbon:after {
+  content: "";
+  width: 25px;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -120px;
+  transform: skewY(35deg) skewX(0);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #000;
+  transform: translateY(-0.20em);
+}
+
+.course-card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px .1px .3px;
+}
+
+
+.price{
+  height: 40px;
+  width: 40px;
+  font-size:14px;
+  
+  background: #172b4d;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: #fff;
+  padding: 3px;
+  right: 0px;
+}
+
+.course-landing{
+  background-image: url(../img/mentor-back.jpg);
+  padding: 0;
+  background-size:cover;
+  overflow-x: hidden !important;
+  background-position: bottom;
+  min-height: 140vh;
+}
+
+.p-icon{
+  color:black;
+  transition: linear .5s;
+}
+
+.p-icon:hover{
+  background: rgb(223, 61, 61);
+  color:white;
+}
+
+
+/*Video Sessions*/
+.videoLectures{
+  height: max-content;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+}
+
+.video-player{
+  width: 300px;
+}
+
+.course-img{
+  float: right;
+}
+
+
+
+@media(max-width: 992px){
+  .course-img{
+    float: none;
+    margin:  10px 0;
+  }
+}

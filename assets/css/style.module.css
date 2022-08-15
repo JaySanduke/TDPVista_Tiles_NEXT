@@ -1,0 +1,36 @@
+body{
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:initial;*/
+}
+
+.code, .code p{
+   /* font-size: 15px;
+    font-family: "Courier New";
+    background-color:#EEEEEE;
+    text-align: "left";
+    color:  #0275d8;*/
+}
+/*.code{padding:1%;}*/
+
+.inline_code{
+    /*font-family: "Courier New";
+    color:#0275d8;
+    font-size: 15px;*/
+}
+
+.info{
+/*    background-color: #fce87683;
+    padding: 10px;*/
+}
+
+ul{
+    /*font-size: inherit;*/
+}
+
+b{
+    /*font-weight: bold;*/
+}
+
+img{
+    /*width:500px;*/
+}

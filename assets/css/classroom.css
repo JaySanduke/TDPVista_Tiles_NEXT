@@ -1,0 +1,55 @@
+.ClassHead{
+    color:var(--default);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding:5px;
+    margin-left: 2.5%;
+    position: relative;
+}
+.ClassroomHead{
+    border-bottom: var(--default) 2px solid;
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+    
+}
+.classbtn{
+    border: var(--default) 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    z-index: 5;
+    color: var(--default);
+    padding:10px 5px;
+    transition: 0.5s all ease;
+    position: relative;
+    left: 83%;
+    top: 10px;
+    width: 100px;
+
+}
+.classbtn:hover{
+    text-decoration: none;
+    background-color: var(--default);
+    color: white;
+}
+.enrolledclass{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media only screen and (max-width: 943px) {
+    .classbtn{
+      left:75%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .classbtn{
+      left:65%;
+    }
+  }
+
+

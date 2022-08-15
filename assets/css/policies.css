@@ -1,0 +1,64 @@
+.policies-landing{
+  background-image: url(../img/BG2.png);
+  padding: 0;
+  background-size:cover;
+  background-position: bottom;
+  min-height: 115vh;
+}
+.heading-policies{
+  font-family: 'Patua One', cursive;
+  color: rgba(51, 51, 51, 0.342) !important;
+  font-size: 10rem !important;
+}
+.policies-land-bh{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top:100%;
+  display: flex;
+  justify-content: center;
+}
+.policies-land-div{
+  width: 100%;
+  height: 100%;
+  /* padding-top: 10%; */
+  padding-bottom: 10%;
+}
+.temrs-land-row{
+  width: 100%;
+  height: 100%;
+}
+.policies-land-col{
+  height: 100%;
+}
+.policies-land-col-div-1{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.policies-land-col-div-2{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+}
+
+
+.vnav {
+  border: 1px solid #001938;
+}
+
+.vnav-item {
+  border-bottom: 1px solid black;
+  padding: 7px;
+}
+
+.active {
+  background: linear-gradient(#001938, #041c39);
+  color: white;
+}

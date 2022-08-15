@@ -1,0 +1,176 @@
+.cls-1 {
+  font-size: 28px;
+  font-family: Roboto-Bold, Roboto;
+  font-weight: 700;
+}
+
+.cls-2 {
+  letter-spacing: -0.02em;
+}
+
+.cls-3 {
+  letter-spacing: -0.01em;
+}
+
+.cls-4 {
+  letter-spacing: -0.01em;
+}
+
+.cls-5 {
+  font-size: 16px;
+  font-family: Roboto-Regular, Roboto;
+}
+
+.cls-6 {
+  letter-spacing: -0.01em;
+}
+
+.cls-7 {
+  letter-spacing: -0.01em;
+}
+
+.cls-8 {
+  letter-spacing: -0.02em;
+}
+
+.cls-9 {
+  letter-spacing: -0.01em;
+}
+
+.cls-10 {
+  letter-spacing: 0.01em;
+}
+
+.cls-11 {
+  letter-spacing: -0.01em;
+}
+
+.cls-12 {
+  letter-spacing: -0.04em;
+}
+
+.cls-13 {
+  letter-spacing: -0.02em;
+}
+
+.cls-14 {
+  letter-spacing: 0.01em;
+}
+
+.cls-15 {
+  letter-spacing: -0.01em;
+}
+
+.cls-16 {
+  letter-spacing: -0.06em;
+}
+
+.cls-17 {
+  letter-spacing: -0.02em;
+}
+
+.cls-18 {
+  letter-spacing: 0.01em;
+}
+
+.cls-19 {
+  letter-spacing: 0.02em;
+}
+
+.cls-20 {
+  letter-spacing: -0.01em;
+}
+
+.cls-21 {
+  letter-spacing: -0.03em;
+}
+.container {
+  width: 100%;
+  height: 480px;
+}
+
+#learn-more {
+  fill-opacity: 0;
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2;
+  border-radius: 5px;
+  stroke-linejoin: round;
+  transition: all 250ms ease-in;
+  cursor: pointer;
+}
+#learn-more:hover {
+  fill-opacity: 1;
+}
+#learn-more:hover ~ .learn-more-text {
+  fill: #005fa4;
+}
+
+.learn-more-text {
+  font-family: "Roboto";
+  fill: #fff;
+  pointer-events: none;
+  font-size: 14px;
+  transition: all 250ms ease-in;
+}
+
+.center {
+  fill: #005fa4;
+}
+
+.pointer {
+  fill: #fff;
+  stroke: #3b8fc0;
+  stroke-width: 2;
+}
+
+.nav-copy {
+  font-family: "Roboto";
+  fill: #fff;
+  fill-opacity: 1;
+  transition: all 250ms ease-in;
+}
+.nav-copy.changing {
+  fill-opacity: 0;
+}
+
+.service {
+  cursor: pointer;
+}
+.service text {
+  font-size: 14px;
+  font-family: "Roboto";
+  text-anchor: middle;
+}
+.service .icon-wrapper {
+  transform-origin: 50% 50%;
+}
+.service .icon-wrapper, .service .icon-wrapper > * {
+  transition: all 250ms ease-in;
+}
+.service circle {
+  fill: #005fa4;
+}
+.service circle.shadow {
+  fill-opacity: 0;
+  filter: url(#service-shadow);
+}
+.service use {
+  fill: #fff;
+}
+.service text {
+  fill: #4d4d4d;
+}
+.service.active .icon-wrapper, .service:hover .icon-wrapper {
+  transform: scale(1.15) translateY(-5px);
+}
+.service.active .icon-wrapper, .service.active .icon-wrapper > *, .service:hover .icon-wrapper, .service:hover .icon-wrapper > * {
+  transition: all 250ms ease-out;
+}
+.service.active .icon-wrapper circle.shadow, .service:hover .icon-wrapper circle.shadow {
+  fill-opacity: 0.4;
+}
+.service.active text, .service:hover text {
+  fill: #005fa4;
+  font-weight: bold;
+}

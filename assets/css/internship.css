@@ -1,0 +1,164 @@
+.internship-top{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/internship-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.internship-top-div{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+@media(max-width: 768px){
+  .land-col{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media(min-width: 768px){
+  .land-col{
+    margin-top: 16%;
+    padding: 0;
+  }
+}
+
+@media(min-width: 768px){
+  .internship-top{
+    background-position: left bottom;
+  }
+}
+
+@media(max-width: 768px){
+  .internship-top{
+    background-position: center bottom;
+  }
+  .internship-land-row{
+    justify-content: center;
+  }
+}
+
+.int-land-title{
+  background-color: #9F1AAB;
+  padding: 2%;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.int-land-title-2{
+  color: #271173;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+@media(max-width: 768px){
+  .internship-land-row{
+    margin-top:25%;
+  }
+  .int-land-title{
+    display: inline;
+    font-size: 50px;
+  }
+  .int-land-title-2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.btn-new{
+  background-color: #9F1AAB;
+  color: #fff;
+}
+
+.btn-new:hover{
+  background-color: #92139e;
+  color: #fff;
+}
+
+.int-sect-2{
+  background-color: #ffffff;
+}
+
+.int-land-crd{
+  background-color: #9F1AAB;
+  border-radius: 100px 100px 10px 10px;
+  width: 90%;
+  color: #fff;
+  padding: 2%;
+  transition: all .2s ease-in-out;
+}
+
+.int-land-card-inner{
+  background-color: #ffffff;
+  border-radius: 50%;
+  aspectRatio: 1;
+  width: 100%;
+  transform: scale(0.98);
+}
+
+.int-land-card-inner img{
+  transform: scale(0.6);
+}
+
+.int-land-crd:hover{
+  margin-top: -10px;
+}
+.why-us .content {
+  padding: 30px;
+  background: #9F1AAB;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us .content h3 {
+  color:#fff;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us .content p {
+  margin-bottom: 30px;
+}
+
+.why-us .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.why-us .content .more-btn i {
+  font-size: 14px;
+}
+
+.why-us .content .more-btn:hover {
+  color: #9F1AAB;
+  background: #fff;
+}
+
+.why-us .whyCard{
+  outline: 1px solid #9F1AAB;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.why-us .whyCard:hover{
+  outline:none;
+  color:#fff;
+  background:#9F1AAB;
+}
+.whyCard svg{
+  display:inline-block;
+  margin: 0 10px 0 0;
+}

@@ -1,0 +1,134 @@
+.demo-top{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/demo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.demo-top-div{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.demo-land-row{
+  width: 100%;
+}
+
+@media(max-width: 768px){
+  .demo-land-col{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media(min-width: 768px){
+  .demo-land-col{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media(max-width: 768px){
+  .demo-land-row{
+    justify-content: center;
+  }
+}
+
+.demo-land-title{
+  background-color: #9F1AABcc;
+  padding: 2%;
+  display: inline-block;
+  font-size: 60px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.demo-land-span{
+  background-color: #fff6;
+}
+
+.demo-land-title-2{
+  color: #271173;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+@media(max-width: 768px){
+  .demo-land-title{
+    display: inline;
+    font-size: 50px;
+  }
+  .demo-land-title-2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.btn-new-2{
+  background-color: #9F1AAB;
+  color: #fff;
+}
+
+.btn-new-2:hover{
+  background-color: #92139e;
+  color: #fff;
+}
+
+.demo-sect-2{
+  background-image: url(../img/demo-cut.png);
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.pentagon-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+}
+
+.pentagon-holder{
+  position: absolute;
+  left: 0;
+  top: 6px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.pentagon-icon-holder{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+#pentagon {
+  position: relative;
+  width: 54px;
+  box-sizing: content-box;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: #9F1AAB transparent;
+}
+#pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent #9F1AAB;
+}
